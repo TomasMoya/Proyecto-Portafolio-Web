@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #F2F2E9;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.inicio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nombre {
+    font-size: 64px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #333333;
+}
+
+#descripcion {
+    font-size: 36px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #828282;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    margin: 35px 0 16px 16px;
+    width: 200px;
+    height: 55px;
+    background-color: #E0B68C;
+    color: #F2F2E9;
+    text-align: center;
+    text-decoration: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 32px;
+    align-content: center;
+    border-radius: 9999px;
+}
+
+#conoceme {
+    margin: 20px 0 16px 16px;
+    width: 300px;
+    height: 55px;
+    border: solid #E0B68C;
+    background-color: transparent;
+    color: #E0B68C;
+}
+
+#acerca-de-mi-subtitulo, #tecnologias-y-herramientas-subtitulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 45px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
+
+#tecnologias-y-herramientas-subtitulo {
+    padding-bottom: 3%;
+}
+
+.acerca-de-mi {
+    min-height: 100vh;
+}
+
+.descripcion {
+    display: flex;
+    align-items: center;
+    padding-top: 7%;
+    justify-content: space-between;
+    margin: 0 10%;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    color: #828282
+}
+
+#descripcion-acerca-de-mi {
+    width: 700px;
+}
+
+.tecnologias-y-herramientas {
+    background-color: #FFFFFF;
+    min-height: 70vh;
+}
+
+.tecnologias-y-herramientas-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 165px));
+    gap: 60px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tecnologias-y-herramientas-elemento {
+    background-color: #F2F2E9;
+    color: #000000;
+    font-size: 21px;
+    border-radius: 16px;
+    border-style: groove;
+    border-color: #E0B68C,;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+.contacto {
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 25%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#contacto-subtitulo {
+    margin-bottom: 3%;
+    font-size: 36px;
+}
+
+#gmail {
+    margin: 35px 0 16px 16px;
+    width: 200px;
+    height: 40px;
+    background-color: #E0B68C;
+    color: #F2F2E9;
+    text-align: center;
+    text-decoration: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 32px;
+    align-content: center;
+    border-radius: 9999px;
+}
