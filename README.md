@@ -28,7 +28,7 @@ Se trata de un portafolio web desarrollado con **HTML** y **CSS**, pensado para 
 
 ## 📍 Estado del proyecto
 
-✅ **Completado**
+ 🚧 **En Proceso**
 
 ---
 
