@@ -8,6 +8,10 @@
     --font-weight-parrafos : 700;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -65,11 +69,11 @@ img {
     padding: 12px 32px;
     align-content: center;
     border-radius: 9999px;
+    transition: all 500ms;
 }
 
 .link:hover {
     font-size: 22px;
-    transition-duration: 500ms;
 }
 
 #conoceme {
@@ -142,13 +146,13 @@ img {
     justify-content: center;
     align-items: center;
     aspect-ratio: 1 / 1;
+    transition: all 500ms;
 }
 
 .tecnologias-y-herramientas-elemento:hover {
     border-color: #dfb386;
     background-color: #d0d0af;
     font-size: 30px;
-    transition-duration: 500ms;
 }
 
 #proximamente {
