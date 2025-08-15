@@ -1,4 +1,13 @@
 
+:root {
+    --color-primario : #F2F2E9;
+    --color-secundario : #E0B68C;
+    --fuente-titulos : Playfair Display;
+    --font-weight-titulos : 700;
+    --fuente-parrafos : Lato;
+    --font-weight-parrafos : 700;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +15,7 @@
 
 body {
     height: 100vh;
-    background-color: #F2F2E9;
+    background-color: var(--color-primario);
 }
 
 img {
@@ -25,15 +34,15 @@ img {
 
 #nombre {
     font-size: 64px;
-    font-family: Playfair Display;
-    font-weight: 700;
+    font-family: var(--fuente-titulos);
+    font-weight: var(--font-weight-titulos);
     color: #333333;
 }
 
 #descripcion {
     font-size: 36px;
-    font-family: Playfair Display;
-    font-weight: 700;
+    font-family: var(--fuente-titulos);
+    font-weight: var(--font-weight-titulos);
     color: #828282;
 }
 
@@ -46,25 +55,30 @@ img {
     margin: 35px 0 16px 16px;
     width: 200px;
     height: 55px;
-    background-color: #E0B68C;
-    color: #F2F2E9;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
     text-align: center;
     text-decoration: 0;
-    font-family: Lato;
-    font-weight: 700;
+    font-family: var(--fuente-parrafos);
+    font-weight: var(--font-weight-parrafos);
     font-size: 16px;
     padding: 12px 32px;
     align-content: center;
     border-radius: 9999px;
 }
 
+.link:hover {
+    font-size: 22px;
+    transition-duration: 500ms;
+}
+
 #conoceme {
     margin: 20px 0 16px 16px;
     width: 300px;
     height: 55px;
-    border: solid #E0B68C;
+    border: solid var(--color-secundario);
     background-color: transparent;
-    color: #E0B68C;
+    color: var(--color-secundario);
 }
 
 #acerca-de-mi-subtitulo, #tecnologias-y-herramientas-subtitulo {
@@ -72,13 +86,14 @@ img {
     justify-content: center;
     padding-top: 5%;
     font-size: 45px;
-    font-family: Playfair Display;
-    font-weight: 700;
+    font-family: var(--fuente-titulos);
+    font-weight: var(--font-weight-titulos);
     color: #333333;
     text-align: center;
 }
 
 #tecnologias-y-herramientas-subtitulo {
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
@@ -92,8 +107,8 @@ img {
     padding-top: 7%;
     justify-content: space-between;
     margin: 0 10%;
-    font-family: Lato;
-    font-weight: 700;
+    font-family: var(--fuente-parrafos);
+    font-weight: var(--font-weight-parrafos);
     font-size: 20px;
     color: #828282
 }
@@ -109,19 +124,19 @@ img {
 
 .tecnologias-y-herramientas-div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 165px));
+    grid-template-columns: repeat(4, 1fr);
     gap: 60px 100px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .tecnologias-y-herramientas-elemento {
-    background-color: #F2F2E9;
+    background-color: var(--color-primario);
     color: #000000;
     font-size: 21px;
     border-radius: 16px;
     border-style: groove;
-    border-color: #E0B68C,;
+    border-color: #9a8065;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -129,8 +144,21 @@ img {
     aspect-ratio: 1 / 1;
 }
 
+.tecnologias-y-herramientas-elemento:hover {
+    border-color: #dfb386;
+    background-color: #d0d0af;
+    font-size: 30px;
+    transition-duration: 500ms;
+}
+
+#proximamente {
+    justify-self: center;
+    margin: 30px;
+    padding-bottom: 15px;
+}
+
 .contacto {
-    font-family: Playfair Display;
+    font-family: var(--fuente-titulos);
     font-weight: 600;
     font-size: 18px;
     padding: 0 25%;
@@ -151,12 +179,12 @@ img {
     margin: 35px 0 16px 16px;
     width: 200px;
     height: 40px;
-    background-color: #E0B68C;
-    color: #F2F2E9;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
     text-align: center;
     text-decoration: 0;
-    font-family: Lato;
-    font-weight: 700;
+    font-family: var(--fuente-parrafos);
+    font-weight: var(--font-weight-parrafos);
     font-size: 16px;
     padding: 12px 32px;
     align-content: center;
