@@ -23,8 +23,8 @@ body {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
 }
 
@@ -37,14 +37,14 @@ img {
 }
 
 #nombre {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--fuente-titulos);
     font-weight: var(--font-weight-titulos);
     color: #333333;
 }
 
 #descripcion {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-titulos);
     font-weight: var(--font-weight-titulos);
     color: #828282;
@@ -56,30 +56,30 @@ img {
 }
 
 .link {
-    margin: 35px 0 16px 16px;
-    width: 200px;
-    height: 55px;
+    margin: 7% 0 3% 3%;
+    width: 12.5rem;
+    height: 3.438rem;
     background-color: var(--color-secundario);
     color: var(--color-primario);
     text-align: center;
     text-decoration: 0;
     font-family: var(--fuente-parrafos);
     font-weight: var(--font-weight-parrafos);
-    font-size: 16px;
-    padding: 12px 32px;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
     align-content: center;
     border-radius: 9999px;
     transition: all 500ms;
 }
 
 .link:hover {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 #conoceme {
-    margin: 20px 0 16px 16px;
-    width: 300px;
-    height: 55px;
+    margin: 1.25rem 0 1rem 1rem;
+    width: 18.75rem;
+    height: 3.438rem;
     border: solid var(--color-secundario);
     background-color: transparent;
     color: var(--color-secundario);
@@ -89,7 +89,7 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 5%;
-    font-size: 45px;
+    font-size: 2.813rem;
     font-family: var(--fuente-titulos);
     font-weight: var(--font-weight-titulos);
     color: #333333;
@@ -113,12 +113,12 @@ img {
     margin: 0 10%;
     font-family: var(--fuente-parrafos);
     font-weight: var(--font-weight-parrafos);
-    font-size: 20px;
+    font-size: 150%;
     color: #828282
 }
 
 #descripcion-acerca-de-mi {
-    width: 700px;
+    width: 50%;
 }
 
 .tecnologias-y-herramientas {
@@ -129,16 +129,16 @@ img {
 .tecnologias-y-herramientas-div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 60px 100px;
-    max-width: 1000px;
+    gap: 3.75rem 6.25rem;
+    max-width: 65%;
     margin: 0 auto;
 }
 
 .tecnologias-y-herramientas-elemento {
     background-color: var(--color-primario);
     color: #000000;
-    font-size: 21px;
-    border-radius: 16px;
+    font-size: 1.313rem;
+    border-radius: 1rem;
     border-style: groove;
     border-color: #9a8065;
     text-align: center;
@@ -152,19 +152,19 @@ img {
 .tecnologias-y-herramientas-elemento:hover {
     border-color: #dfb386;
     background-color: #d0d0af;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #proximamente {
     justify-self: center;
-    margin: 30px;
-    padding-bottom: 15px;
+    margin: 1.875rem;
+    padding-bottom: 0.938rem;
 }
 
 .contacto {
     font-family: var(--fuente-titulos);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 0 25%;
     min-height: 30vh;
     display: flex;
@@ -176,21 +176,21 @@ img {
 
 #contacto-subtitulo {
     margin-bottom: 3%;
-    font-size: 36px;
+    font-size: 2rem;
 }
 
 #gmail {
-    margin: 35px 0 16px 16px;
-    width: 200px;
-    height: 40px;
+    margin: 2.188rem 0 1rem 1rem;
+    width: 12.5rem;
+    height: 2.5rem;
     background-color: var(--color-secundario);
     color: var(--color-primario);
     text-align: center;
     text-decoration: 0;
     font-family: var(--fuente-parrafos);
     font-weight: var(--font-weight-parrafos);
-    font-size: 16px;
-    padding: 12px 32px;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
     align-content: center;
     border-radius: 9999px;
 }
