@@ -34,7 +34,7 @@ Se trata de un portafolio web desarrollado con **HTML** y **CSS**, pensado para 
 
 ## 🚀 Cómo usarlo
 
-1. Abre el archivo `index.html` en tu navegador.
+1. Ingresa al link de la página: https://proyecto-portafolio-web.vercel.app/ o abre el index.html.
 2. Navega por:
    - **Inicio** → Tres enlaces principales: LinkedIn, GitHub y Conóceme.
    - **Acerca de mí** → Información personal.
